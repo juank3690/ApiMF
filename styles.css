@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Comic Neue", cursive;;
+    background-color: rgb(57, 122, 122);
+
+    
+}
+
+
+
+
+
+#location-input, #map{
+    border-radius: 5px;
+}
+
+
+.container {
+    
+    text-align: center;
+    min-width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    background-color: rgb(52, 50, 50);
+    color: #f0f0f0;
+    
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+
+#icono{
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+#location-input{
+    height: 20px;
+}
+
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+#weather-info {
+    margin-top: 20px;
+}

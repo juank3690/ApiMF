@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa del clima</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxlO8ILdL4GvaE8wreaAke_-k3Al4V-IM&libraries=places&callback=initMap" async defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <h1>Mapa del clima</h1>
+        <span class="material-symbols-outlined" id="icono">
+            sunny
+            </span>
+        <input id="location-input" type="text" placeholder="Buscar">
+        <div id="map"></div>
+        <div id="weather-info">
+            <h2>Clima actual</h2>
+            <p id="temperature">Temperatura: -- °C</p>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
